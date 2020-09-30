@@ -1,0 +1,19 @@
+
+def num_of_zeros(n):
+    n = str(n)
+    s = n.split('.')[1]
+    return len(s) - len(s.lstrip('0'))
+
+new_mid_value = mid
+old_mid_value = 0
+if i != 0:
+old_mid_value = list[i-1][2]
+print("New Mid: ", new_mid_value)
+print("Old Mid: ", old_mid_value)
+dif = abs(new_mid_value) - abs(old_mid_value)
+print("Dif: ", dif)
+dif = num_of_zeros(abs(dif))
+print("Number of zero: ", dif)
+if dif >= decimal_place:
+     return list
+
